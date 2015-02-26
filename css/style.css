@@ -1,0 +1,108 @@
+* {
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+
+*:focus, *:-moz-focus-inner {
+    outline: 0;
+}
+
+html,body {
+    width 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial;
+    font-size: 8pt;
+}
+
+#header {
+    width: 100%;
+    background-color: #5066b0;
+    color: #ffffff;
+}
+
+#content {
+    padding: 20px;
+    text-align: left;
+}
+
+a, a:visited {
+    color: #6177a0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7399c0;
+    text-decoration: underline;
+}
+
+p,h1,h2 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+pre, .code {
+    padding: 2px;
+    margin: 8px 0 8px 20px;
+    max-width: 50%;
+    width: auto;
+}
+
+.container {
+    width: 90%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.container .body {
+    border-bottom: 1px solid #444;
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.container .head {
+    border-bottom: 1px solid #444;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav > ul {
+    display: inline-block;
+    list-style: none;
+    list-style-type: none;
+    font-size: 0;
+    width:100%;
+}
+
+nav > ul > li {
+    display: inline-block;
+    font-size: 10pt;
+}
+
+nav > ul > li:not(:first-child) {
+    margin-left: 10px;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:visited {
+    padding: 3px;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    width: 100%;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a.active {
+    text-decoration: underline;
+}
